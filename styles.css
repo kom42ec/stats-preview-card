@@ -77,7 +77,7 @@ img {
   border-radius: 7px;
 }
 .content {
-  padding: 7rem 10rem 7rem 7rem;
+  padding: 7rem 10rem 6rem 7rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -88,7 +88,7 @@ img {
 
 .heading {
   font-family: "Inter", sans-serif;
-  font-size: 3.5rem;
+  font-size: 3.6rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 2.4rem;
@@ -104,4 +104,27 @@ img {
   line-height: 1.7;
 }
 .stats {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.stat-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.number {
+  font-family: "Inter", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--stats-heading);
+}
+
+.text {
+  color: var(--stat-headings);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
 }
