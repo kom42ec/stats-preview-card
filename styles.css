@@ -72,8 +72,9 @@ img {
 .container {
   max-width: 110rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 51fr 49fr;
   background-color: var(--saturated-blue);
+  border-radius: 7px;
 }
 .content {
   padding: 7rem 10rem 7rem 7rem;
@@ -90,6 +91,7 @@ img {
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 1.2;
+  margin-bottom: 2.4rem;
 }
 .heading span {
   color: var(--soft-violet);
@@ -99,7 +101,7 @@ img {
   font-size: 1.5rem;
   color: var(--main-paragraph);
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 .stats {
 }
