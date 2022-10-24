@@ -68,7 +68,8 @@ body {
   color: var(--stats-heading);
   padding: 0 3rem;
 }
-img {
+img,
+picture {
   display: block;
   width: 100%;
 }
@@ -128,4 +129,16 @@ img {
   font-size: 2.4rem;
   font-weight: 700;
   margin-bottom: 0.7rem;
+}
+
+.image {
+  background: linear-gradient(hsl(277, 64%, 61%), hsl(277, 64%, 61%));
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  mix-blend-mode: luminosity;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
 }
