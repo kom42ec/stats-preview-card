@@ -57,6 +57,7 @@ html {
   font-size: 62.5%;
 }
 body {
+  font-family: "Inter", sans-serif;
   background-color: var(--dark-blue);
   font-size: 1.5rem;
   min-height: 100vh;
@@ -64,8 +65,20 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--stats-heading);
+  padding: 0 3rem;
 }
 img {
   display: block;
   width: 100%;
+}
+
+.container {
+  max-width: 110rem;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--saturated-blue);
+  border-radius: 9px;
+  display: grid;
+  grid-template-columns: 51fr 49fr;
 }
