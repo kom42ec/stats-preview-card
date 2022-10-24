@@ -46,12 +46,16 @@
         </div>
       </section>
 
-      <section class="image-box">
-        <img
-          src="img/image-header-desktop.jpg"
-          alt="woman smiling in the workspace"
+      <picture class="image">
+        <source
+          srcset="/img/image-header-mobile.jpg"
+          media="(max-width: 620px)"
         />
-      </section>
+        <img
+          src="/img/image-header-desktop.jpg"
+          alt="Woman smilling at workspace"
+        />
+      </picture>
     </main>
   </body>
 </html>
