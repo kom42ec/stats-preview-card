@@ -15,6 +15,17 @@ Users should be able to view the optimal layout depending on their device's scre
 
 ![](img/stats-img.png)
 
+## What I learned
+
+The main thing I learned here is how to use the `mix-bland-mode` property to add that purple color over the image. I have put the background-color on the picture element, and used this declaration on the img element:
+
+```
+mix-blend-mode: multiply;
+opacity: 0.75;
+```
+
+Also, I used the picture element to change the image source for the mobile view.
+
 ## Built with
 
 - Semantic HTML5 markup

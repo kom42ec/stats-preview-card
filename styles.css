@@ -138,7 +138,6 @@ picture {
 .image img {
   width: 100%;
   height: auto;
-  mix-blend-mode: luminosity;
   mix-blend-mode: multiply;
   opacity: 0.75;
 }
